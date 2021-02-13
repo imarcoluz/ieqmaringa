@@ -8,7 +8,12 @@ $app->config('debug', true);
 
 $app->get('/', function() {
     
-	echo "OK";
+	//echo "OK";
+	$sql = new Ieqmaringa\DB\Sql();
+
+	$results = $sql->select("SELECT * FROM world");
+
+	echo json_encode($results);
 
 });
 

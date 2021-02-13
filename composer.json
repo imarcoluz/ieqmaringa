@@ -2,8 +2,8 @@
     "name": "imarcoluz/ieqmaringa",
     "authors": [
         {
-            "name": "Hcode Treinamentos",
-            "email": "suporte@hcode.com.br"
+            "name": "IEQ Maringa",
+            "email": "teste@teste.com.br"
         }
     ],
     "require": {
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "": "vendor\\imarcoluz\\php-classes\\src"
+            "Ieqmaringa\\": "vendor\\ieqmaringa\\php-classes\\src"
         }
     }
 }
