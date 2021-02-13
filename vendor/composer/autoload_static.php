@@ -9,12 +9,12 @@ class ComposerStaticInit0cf0711da8ad826044594b002feeaa99
     public static $prefixLengthsPsr4 = array (
         'I' => 
         array (
-            'Ieqmaringa\\' => 11,
+            'Ieq\\' => 4,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Ieqmaringa\\' => 
+        'Ieq\\' => 
         array (
             0 => __DIR__ . '/..' . '/ieqmaringa/php-classes/src',
         ),

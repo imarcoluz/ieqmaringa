@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ieqmaringa\\": "vendor\\ieqmaringa\\php-classes\\src"
+            "Ieq\\": "vendor\\ieqmaringa\\php-classes\\src"
         }
     }
 }

@@ -9,9 +9,9 @@ $app->config('debug', true);
 $app->get('/', function() {
     
 	//echo "OK";
-	$sql = new Ieqmaringa\DB\Sql();
+	$sql = new Ieq\DB\Sql();
 
-	$results = $sql->select("SELECT * FROM world");
+	$results = $sql->select("select * from city");
 
 	echo json_encode($results);
 
